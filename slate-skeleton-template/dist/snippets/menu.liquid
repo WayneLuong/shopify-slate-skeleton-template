@@ -1,0 +1,30 @@
+<nav>
+    <ul>
+        {% for link in linklists[section.settings.main_linklist].links %}
+            {% if link.links == blank %}
+                <li> 
+                    <a href="{{link.url}}">{{link.title}}</a>
+                </li>
+            {%endif %}
+            {% if link.links != blank %}
+                <li> 
+                    <a href="{{link.url}}">{{link.title}}</a>
+                    <ul>
+                        {% for childLink in link.links %}
+                            <li> 
+                                <a href="{{childLink.url}}">{{childLink.title}}</a>
+                                {% for subLink in childLink.links %}
+                                    <li>
+                                        <a href="{{subLink.url}}">{{subLink.title}}</a>
+                                    </li>
+                                {% endfor %}
+                            </li>    
+                        {% endfor %}
+                    </ul>
+                </li>
+            
+            {% endif %}
+        {% endfor %}
+    </ul>
+</nav> 
+

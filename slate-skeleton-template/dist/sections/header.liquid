@@ -1,1 +1,44 @@
 <h1>Header</h1>
+  <div>
+    <form action="/search">
+          <input type="text" placeholder="Search" name="q" value="{{ search.terms | escape }}"  />
+          <input type="submit" value="Search" />
+      </form>
+      <li><a href="/cart">Cart</a></li>
+
+      {% if shop.customer_accounts_enabled %}
+        {% if customer %}
+          <li><a href="/account">Your Account</a></li>
+          <li><a href="/account/logout"></i>Sign out</a></li>            
+        {% else %}           
+          <li><a href="/account/login"></i>Login</a></li>
+          {% if shop.customer_accounts_optional %}
+            <li>{{ 'Create an account' | customer_register_link }}</li>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+
+      {% include 'menu' %}
+
+  </div>
+
+
+{% schema %}
+  {
+    "name": "Header",
+    "settings": [
+      {
+          "type":"link_list",
+          "id":"main_linklist",
+          "label": "Main menu",
+          "default": "main-menu"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

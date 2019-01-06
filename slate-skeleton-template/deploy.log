@@ -1,0 +1,37 @@
+Deploy complete @ Sun Jan 06 2019 21:04:46 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.scss.liquid.
+Deploy complete @ Sun Jan 06 2019 21:04:47 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.scss.liquid.
+Deploy complete @ Sun Jan 06 2019 21:05:04 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.scss.liquid.
+Deploy complete @ Sun Jan 06 2019 21:06:47 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.scss.liquid.
+Deploy complete @ Sun Jan 06 2019 21:07:16 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.scss.liquid.
+Deploy complete @ Sun Jan 06 2019 21:10:35 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.scss.liquid.
+Deploy complete @ Sun Jan 06 2019 21:12:54 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): sections/header.liquid.
+Deploy error @ Sun Jan 06 2019 21:13:11 GMT+0000 (Greenwich Mean Time). added/changed 17 file(s): sections/footer.liquid, locales/en.default.json, config/settings_data.json, templates/list-collections.liquid, templates/404.liquid, templates/collection.liquid, templates/index.liquid, templates/page.liquid, templates/blog.liquid, templates/page.contact.liquid, templates/product.liquid, templates/gift_card.liquid, templates/cart.liquid, templates/article.liquid, templates/password.liquid, templates/search.liquid, assets/readme.md.
+21:13:08 [development]Asset Perform Update to locales/en.default.json at host wayne-luong-dev.myshopify.com
+	Status: 422 Unprocessable Entity
+	Errors: Invalid JSON: unexpected token
+ 
+Deploy complete @ Sun Jan 06 2019 21:13:19 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): sections/header.liquid.
+Deploy complete @ Sun Jan 06 2019 21:13:33 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): sections/header.liquid.
+Deploy complete @ Sun Jan 06 2019 21:13:59 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): sections/header.liquid.
+Deploy complete @ Sun Jan 06 2019 21:14:08 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): sections/header.liquid.
+Deploy complete @ Sun Jan 06 2019 21:14:42 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.scss.liquid.
+Deploy complete @ Sun Jan 06 2019 21:15:05 GMT+0000 (Greenwich Mean Time). added/changed 2 file(s): sections/header.liquid, sections/header.liquid.
+Deploy complete @ Sun Jan 06 2019 21:15:46 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.scss.liquid.
+Deploy complete @ Sun Jan 06 2019 21:16:45 GMT+0000 (Greenwich Mean Time). added/changed 2 file(s): assets/theme.js, assets/theme.scss.liquid.
+Deploy complete @ Sun Jan 06 2019 21:16:49 GMT+0000 (Greenwich Mean Time). added/changed 7 file(s): templates/customers/login.liquid, templates/customers/order.liquid, templates/customers/account.liquid, templates/customers/register.liquid, templates/customers/activate_account.liquid, templates/customers/addresses.liquid, templates/customers/reset_password.liquid.
+Deploy complete @ Sun Jan 06 2019 21:19:14 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): layout/theme.liquid.
+Deploy complete @ Sun Jan 06 2019 21:22:04 GMT+0000 (Greenwich Mean Time). added/changed 2 file(s): assets/theme.scss.liquid, assets/theme.scss.liquid.
+Deploy complete @ Sun Jan 06 2019 21:22:12 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): sections/header.liquid.
+Deploy complete @ Sun Jan 06 2019 21:22:25 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): sections/header.liquid.
+Deploy complete @ Sun Jan 06 2019 21:22:46 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.scss.liquid.
+Deploy complete @ Sun Jan 06 2019 21:22:54 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.scss.liquid.
+Deploy complete @ Sun Jan 06 2019 21:23:54 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.js.
+Deploy complete @ Sun Jan 06 2019 21:24:01 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.js.
+Deploy complete @ Sun Jan 06 2019 21:25:16 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.js.
+Deploy complete @ Sun Jan 06 2019 21:25:33 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.js.
+Deploy complete @ Sun Jan 06 2019 21:31:45 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.js.
+Deploy complete @ Sun Jan 06 2019 21:31:55 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.js.
+Deploy complete @ Sun Jan 06 2019 21:33:31 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.js.
+Deploy complete @ Sun Jan 06 2019 21:33:37 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.js.
+Deploy complete @ Sun Jan 06 2019 21:33:51 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): assets/theme.js.
+Deploy complete @ Sun Jan 06 2019 21:35:43 GMT+0000 (Greenwich Mean Time). added/changed 1 file(s): layout/theme.liquid.
