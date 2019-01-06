@@ -13,9 +13,9 @@
 
 ---
 development:
-  password: 30c92dac4edd8b83ed484d72304b8034
-  theme_id: "54611116132"
-  store: wayne-luong-dev.myshopify.com
+  password: password
+  theme_id: themeid
+  store: your-store.myshopify.com
   ignore_files:
     #- settings_data.json # Uncomment this line to avoid resetting theme settings
 
