@@ -1,0 +1,12 @@
+<section class="collection-list">
+    {% for collection in collections %}
+        <h1>
+            <a href="{{collection.url}}">{{collection.title}}</a>
+        </h1>
+        {% if collection.image %}
+            <img src="{{collection | img_url:'1920x'}}" alt="">
+        {% else %}
+            <img src="{{ collection.products.first | img_url: '450x450' }}" alt="{{ collection.title | escape  }}" />
+        {% endif %}
+    {% endfor %}
+</section>

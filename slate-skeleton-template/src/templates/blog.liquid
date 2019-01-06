@@ -1,0 +1,9 @@
+<div>
+    {% for article in blog.articles %}
+        <h1>{{article.title}}</h1>
+        <h4>By {{article.author}}<h4>
+        <h4>Published on {{ article.published_at | date: "%a, %b %d, %y" }}</h4>
+        <p>{{ article.content | strip_html | truncate: 150 }}</p>
+        <a href='{{article.url}}'>Read more...</a>
+    {% endfor %}
+</div>

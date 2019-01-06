@@ -1,0 +1,25 @@
+<section class="collection-section">
+    {% paginate collection.products by 1 %}
+    {% for product in collection.products %}
+        <a href="{{product.url}}"><h2>{{product.title}}</h2></a>
+        <img src="{{product.featured_image.src | img_url:'large'}}" alt="">
+    {% endfor %}
+    <br>
+    <!-- Paginate Prev -->
+    {% if paginate.previous %}
+        {{ paginate.previous.title | link_to: paginate.previous.url }}
+    {% endif %}
+    <!-- Paginate Parts -->
+    {% for part in paginate.parts %}
+        {% if part.is_link %}
+            {{ part.title | link_to: part.url }}
+        {% else %}
+            {{ part.title }}
+        {% endif %}
+    {% endfor %}
+    <!-- Paginate Next -->
+    {% if paginate.next %}
+        {{ paginate.next.title | link_to: paginate.next.url }}
+    {% endif %}
+{% endpaginate %}
+</section>

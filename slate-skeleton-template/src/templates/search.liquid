@@ -1,0 +1,13 @@
+<section class="search-section">
+    {% if search.results_count == 0 %}
+    <h1>Sorry! No results found.</h1>
+    {% endif %}
+    {% for item in search.results %}
+        <h1>{{item.title}}</h1>
+        
+        <a href="{{item.url}}">
+            <img src="{{ item.featured_image | img_url:'500x'}}"/>
+        </a>
+        
+    {% endfor %}
+</section>

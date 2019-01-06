@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="{{ shop.locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="">
+  <link rel="canonical" href="{{ canonical_url }}">
+
+  <title>{{ shop.name }}</title>
+
+  <meta name="description" content="">
+
+  {{ content_for_header }}
+  
+    {{'theme.scss'| | asset_url| | | stylesheet_tag}}
+
+</head>
+
+<body>
+  {% section 'header' %}
+
+  <h1>{{shop.name}}</h1>
+
+  {{ content_for_layout }}
+
+  {% section 'footer' %}
+
+  {{'theme.js'| | asset_url| | script_tag}}
+</body>
+</html>
