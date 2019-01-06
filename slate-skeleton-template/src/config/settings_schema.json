@@ -23,8 +23,9 @@
     "settings": [
       {
         "type": "color",
-        "id": "bg-color",
-        "label": "background color"
+        "id": "header-color",
+        "label": "Header color",
+        "default": "#000"
       }
     ]
   }
